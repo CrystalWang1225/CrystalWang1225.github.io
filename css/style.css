@@ -242,7 +242,7 @@ p {
 ---------------------------------*/
 
 #header_wrapper {
-    background: #e0d99ae3;
+    background: #d7994de3;
     padding: 15px 0px;
 	
 	box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.44);
@@ -1198,14 +1198,21 @@ transition: all .3s;
     font-size: 24px;
     font-weight: 600;
     margin: 0 0 30px;
-    color: #fff;
+    color: #ccc;
+}
+
+.contact_info  h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 30px;
+    color: #ccc;
 }
 
 .contact_info p {
     line-height: 28px;
     display: block;
     font-size: 16px;
-    color: #ffffff;
+    color: #ccc;
     margin: 0 0 30px;
 }
 
@@ -1266,7 +1273,7 @@ transition: all .3s;
     display: block;
     border-radius: 4px;
     font-size: 15px;
-    color: #aaa;
+    color: rgb(205, 209, 211);
     margin: 0 0 15px 0;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1292,9 +1299,9 @@ transition: all .3s;
     width: 175px;
     height: 50px;
     letter-spacing: 0px;
-    background: #F74D4D;
+    background: #289673d6;
     border-radius: 3px;
-    color: #ffffff;
+    color: #ccc;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
@@ -1305,15 +1312,15 @@ transition: all .3s;
 }
 
 .input-btn:hover {
-    background: #fff;
-    color: #222;
+    background: #ccc;
+    color: rgb(10, 10, 10);
 }
 
 /* Footer
 ---------------------------------*/
 
 .footer_wrapper {
-    background: #0A1525;
+    background: #299b88d2;
 }
 
 .footer_bottom {
@@ -1991,7 +1998,7 @@ div.mc-image {
     height:100%;
     left:1px;
     top:0;
-    border-right:1px solid #F74D4D;
+    border-right:1px solid #d7994de3;
     z-index:-1;
 } 
 
@@ -2003,7 +2010,7 @@ div.mc-image {
     height:100px;
     left:1px;
     bottom:-105px;
-    border-right:1px dashed #F74D4D;
+    border-right:1px dashed #d7994de3;
     z-index:-1;
 } 
 
@@ -2017,7 +2024,7 @@ div.mc-image {
     font-size:21px;
     font-weight:400;
     color:#fff;
-    background:#F74D4D;
+    background:#d7994de3D;
     border-radius:5px;
 }
 
@@ -2043,7 +2050,7 @@ div.mc-image {
 }
 
 .news-item:hover .news-content {
-    background:#F74D4D;
+    background:#d7994de3;
     color:#fff;
 }
 
@@ -2078,12 +2085,12 @@ div.mc-image {
 }
 
 .news-item:hover .news-content:after {
-    border-left-color:#F74D4D;
+    border-left-color:#d7994de3;
 }
 
 .news-item.right:hover .news-content:after {
     border-left-color:transparent;
-    border-right-color:#F74D4D;
+    border-right-color:#d7994de3;
 }
 
 .news-item .news-content:before {
@@ -2094,7 +2101,7 @@ div.mc-image {
     height:20px;
     right:-55px;
     top:60px;
-    background:#F74D4D;
+    background:#d7994de3;
     border:3px solid #fff;
     border-radius:50%;
     -webkit-transition:background .3s ease-out;
@@ -2112,7 +2119,7 @@ div.mc-image {
     height:80px;
     left:10px;
     text-align:center;
-    color:#F74D4D;
+    color:#d7994de3D;
     -webkit-transition:color .3s ease-out;
     transition:color .3s ease-out;
 }
@@ -2343,6 +2350,7 @@ margin:0;
 h2, .contact_section h2 {
 font-size: 30px;
 }
+
 .page_section.contact {
 padding: 60px 0 50px;
 } 
